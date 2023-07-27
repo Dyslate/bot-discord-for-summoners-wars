@@ -36,7 +36,7 @@ async def scrape_codes():
                 reward_info = reward_info.replace("Light and dark scroll","<:dl_scroll:1133231377735745607>")
                 
             if "Water scroll" in reward_info:
-                reward_info = reward_info.replace("Water scroll",":<:water_scroll:1133960672288456825>:")
+                reward_info = reward_info.replace("Water scroll","<:water_scroll:1133960672288456825>")
 
             if "Wind scroll" in reward_info:
                 reward_info = reward_info.replace("Wind scroll","<:wind_scroll:1133232580746022942>")
